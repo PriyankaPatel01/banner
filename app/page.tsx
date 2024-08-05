@@ -1,13 +1,13 @@
 // Priyanka Patel
 
 'use client'
-import {useEffect, useRef, useState} from 'react'
+import {useState} from 'react'
 import {motion, AnimatePresence} from 'framer-motion'
 import {XMarkIcon} from '@heroicons/react/24/outline'
 import React from 'react'
 import Banner from './general/banner/page'
 import Image from 'next/image'
-import { title } from 'process'
+
 
 const page = () => {
 
