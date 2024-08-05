@@ -9,7 +9,7 @@ import Banner from './general/banner/page'
 import Image from 'next/image'
 
 
-const page = () => {
+const Page = () => {
 
     const formAction =async (formData : FormData) => {
       const title = formData.get('title')
@@ -76,4 +76,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
